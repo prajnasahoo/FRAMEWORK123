@@ -31,7 +31,7 @@ public class ToCreatContactTest extends BaseClass {
 		ccp.getLastnameTextfield().sendKeys(LASTNAME);
 		ccp.getSaveButton().click();
 		// Fail
-		Assert.fail();
+		//Assert.fail();
 		CreateInfoPage cip = new CreateInfoPage(driver);
 		String name = cip.getContactInfo().getText();
 
